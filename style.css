@@ -1,0 +1,27 @@
+.bugs
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:50px;
+    grid-template-rows:repeat(5,100px);
+    place-items:center;
+}
+
+img{
+    width:150px;
+    height:150px;
+
+}
+
+.msgArea
+{
+    display:grid;
+    place-items: center;
+    padding:25px;
+}
+
+#b
+{
+    display:grid;
+    place-items: center;
+}
